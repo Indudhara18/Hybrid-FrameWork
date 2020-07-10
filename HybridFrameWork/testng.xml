@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="sBrowser" value="chrome"></parameter>
+    <classes>
+      <class name="com.HybridFW.scripts.DemoTestLoginPage"/>
+      <class name="com.HybridFW.scripts.TestLoginPagee"/>
+      <class name="com.HybridFW.scripts.TestIssueDate"/>
+      <class name="com.HybridFW.scripts.TestProductEdition"/>
+ 	  <class name="com.HybridFW.scripts.TestCreateCustomer"/>
+      <class name="com.HybridFW.scripts.TestCreateProject"/>
+      <class name="com.HybridFW.scripts.TestCreateTask"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

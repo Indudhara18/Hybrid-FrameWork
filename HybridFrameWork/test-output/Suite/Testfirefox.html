@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>TestNG:  Testfirefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testfirefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 11 09:18:12 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109306 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.HybridFW.scripts.DemoTestLoginPage.invalidLogin_test()'><b>invalidLogin_test</b><br>Test class: com.HybridFW.scripts.DemoTestLoginPage<br/>
+<a href="#Output-814544817" onClick='toggleBox("Output-814544817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-814544817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-814544817">
+Error Message is displayed --> Username or Password is invalid. Please try again.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.HybridFW.scripts.DemoTestLoginPage@327b636c</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestLoginPagee.testInvalidLoginPage()'><b>testInvalidLoginPage</b><br>Test class: com.HybridFW.scripts.TestLoginPagee<br>Parameters: adskljhc, 5324sdfvlkj<br/>
+<a href="#Output-416216195" onClick='toggleBox("Output-416216195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-416216195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-416216195">
+Error Message is displayed --> Username or Password is invalid. Please try again.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.HybridFW.scripts.TestLoginPagee@15761df8</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestLoginPagee.testInvalidLoginPage()'><b>testInvalidLoginPage</b><br>Test class: com.HybridFW.scripts.TestLoginPagee<br>Parameters: df&&^*(2NB, 435<br/>
+<a href="#Output-2142646576" onClick='toggleBox("Output-2142646576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2142646576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2142646576">
+Error Message is displayed --> Username or Password is invalid. Please try again.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.HybridFW.scripts.TestLoginPagee@15761df8</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestLoginPagee.testInvalidLoginPage()'><b>testInvalidLoginPage</b><br>Test class: com.HybridFW.scripts.TestLoginPagee<br>Parameters: @53274#@HJFVHJ, *(*(^(*^<br/>
+<a href="#Output-1493262582" onClick='toggleBox("Output-1493262582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1493262582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1493262582">
+Error Message is displayed --> Username or Password is invalid. Please try again.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.HybridFW.scripts.TestLoginPagee@15761df8</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestLoginPagee.testValidLoginPage()'><b>testValidLoginPage</b><br>Test class: com.HybridFW.scripts.TestLoginPagee<br/>
+<a href="#Output-1231749145" onClick='toggleBox("Output-1231749145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1231749145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1231749145">
+Expected page is displayed ---> actiTIME - Enter Time-Track<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.HybridFW.scripts.TestLoginPagee@15761df8</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestCreateCustomer.test_CreateCustomer()'><b>test_CreateCustomer</b><br>Test class: com.HybridFW.scripts.TestCreateCustomer<br/>
+<a href="#Output-621470631" onClick='toggleBox("Output-621470631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-621470631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-621470631">
+Expected page is displayed ---> actiTIME - Enter Time-Track<br/>
+Expected Page is displayed--> actiTIME - Task List<br/>
+Specified Customer is already present<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.HybridFW.scripts.TestCreateCustomer@6ab7a896</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestCreateProject.test_CreateProject()'><b>test_CreateProject</b><br>Test class: com.HybridFW.scripts.TestCreateProject<br/>
+<a href="#Output-1435772388" onClick='toggleBox("Output-1435772388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1435772388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1435772388">
+Expected page is displayed ---> actiTIME - Enter Time-Track<br/>
+Expected Page is displayed--> actiTIME - Task List<br/>
+-- Please Select Customer to Add Project for --<br/>
+-- New Customer --<br/>
+Architects Bureau<br/>
+Boston Chocolate<br/>
+Dauglass Tyre<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Specified Project is already present under given customer, project name cannot be same under same customer<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.HybridFW.scripts.TestCreateProject@3745e5c6</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestIssueDate.test_IssueDate()'><b>test_IssueDate</b><br>Test class: com.HybridFW.scripts.TestIssueDate<br/>
+<a href="#Output-634476722" onClick='toggleBox("Output-634476722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-634476722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-634476722">
+Expected page is displayed ---> actiTIME - Enter Time-Track<br/>
+Expected Page is displayed --> actiTIME - Licenses<br/>
+Proper Issue Date is displayed-->Jul 14, 2017<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.HybridFW.scripts.TestIssueDate@45dd4eda</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.TestProductEdition.test_ProductEdition()'><b>test_ProductEdition</b><br>Test class: com.HybridFW.scripts.TestProductEdition<br/>
+<a href="#Output-1519990671" onClick='toggleBox("Output-1519990671", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1519990671" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1519990671">
+Expected page is displayed ---> actiTIME - Enter Time-Track<br/>
+Expected Page is displayed --> actiTIME - Licenses<br/>
+Proper Product Edition is displayed --> actiTIME 2017.4<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.HybridFW.scripts.TestProductEdition@60611244</td></tr>
+<tr>
+<td title='com.HybridFW.scripts.DemoTestLoginPage.validLogin_test()'><b>validLogin_test</b><br>Test class: com.HybridFW.scripts.DemoTestLoginPage<br/>
+<a href="#Output-1093357234" onClick='toggleBox("Output-1093357234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1093357234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093357234">
+The Page is verified -->actiTIME - Enter Time-Track<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.HybridFW.scripts.DemoTestLoginPage@327b636c</td></tr>
+</table><p>
+</body>
+</html>

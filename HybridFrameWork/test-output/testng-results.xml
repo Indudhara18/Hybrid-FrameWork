@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected page is displayed ---> actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-20T07:03:48Z" name="Suite" finished-at="2020-06-20T07:04:02Z" duration-ms="14465">
+    <groups>
+    </groups>
+    <test started-at="2020-06-20T07:03:48Z" name="Test" finished-at="2020-06-20T07:04:02Z" duration-ms="14465">
+      <class name="com.HybridFW.scripts.TestLoginPagee">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:33:48Z" name="openBrowser" finished-at="2020-06-20T12:33:55Z" duration-ms="7388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testValidLoginPage()[pri:0, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:33:55Z" name="testValidLoginPage" finished-at="2020-06-20T12:33:59Z" duration-ms="3738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected page is displayed ---> actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginPage -->
+        <test-method signature="testInvalidLoginPage(java.lang.String, java.lang.String)[pri:1, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:33:59Z" name="testInvalidLoginPage" data-provider="invalidData" finished-at="2020-06-20T12:34:00Z" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adskljhc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5324sdfvlkj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginPage -->
+        <test-method signature="testInvalidLoginPage(java.lang.String, java.lang.String)[pri:1, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:34:00Z" name="testInvalidLoginPage" data-provider="invalidData" finished-at="2020-06-20T12:34:01Z" duration-ms="999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[df&&^*(2NB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[435]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginPage -->
+        <test-method signature="testInvalidLoginPage(java.lang.String, java.lang.String)[pri:1, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:34:01Z" name="testInvalidLoginPage" data-provider="invalidData" finished-at="2020-06-20T12:34:02Z" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@53274#@HJFVHJ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[*(*(^(*^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message is displayed --> Username or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.HybridFW.scripts.TestLoginPagee@50a7bc6e]" started-at="2020-06-20T12:34:02Z" name="closeBrowser" finished-at="2020-06-20T12:34:02Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.HybridFW.scripts.TestLoginPagee -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
